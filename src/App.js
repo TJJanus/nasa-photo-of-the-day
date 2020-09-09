@@ -18,7 +18,7 @@ axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2020-09-09'
 
   return (
     <div className="App">
-      <Photo title={data.title} hdurl={data.url} explanation={data.explanation}/>
+      <Photo title={data.title} hdurl={data.url} explanation={data.explanation} copyright={data.copyright}/>
     </div>
   );
 }

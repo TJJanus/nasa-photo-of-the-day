@@ -10,6 +10,7 @@ const Photo = props => {
                <h2> {props.title} </h2>
                 <img src={props.hdurl} alt = 'nasa pic of the day'/>
                     <div>
+                        <p> Copyright: {props.copyright}</p>
                         <p>Explanation: {props.explanation}</p>
                     </div>
             </div>
