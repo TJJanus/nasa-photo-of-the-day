@@ -5,10 +5,13 @@ const Photo = props => {
 
     return (
         <div>
+            <h1>Nasa Picture of the Day</h1>
             <div>
-                {props.title}
+               <h2> {props.title} </h2>
                 <img src={props.hdurl} alt = 'nasa pic of the day'/>
-                <p>{props.explanation}</p>
+                    <div>
+                        <p>Explanation: {props.explanation}</p>
+                    </div>
             </div>
         </div>
     )
